@@ -10,6 +10,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
+	<!-- Like 버튼 클릭 시 "좋아요 눌렀음" 으로 변경 됨 -->
 	<div id="root">
 		<div v-if="liked">좋아요 눌렀음</div>
 		<button v-else v-on:click="onClickButton">Like</button>
